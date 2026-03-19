@@ -2,8 +2,8 @@
 #include "../residents.h"
 
 // To run the code, enter in terminal:
-// cd  arrayImplementation
-// g++ main.cpp dataLoader.cpp -o output.exe      
+// cd  Array
+// g++ main.cpp arrayLoad.cpp -o output.exe      
 // ./output.exe
 
 using namespace std;
@@ -18,6 +18,8 @@ int main() {
     loadCSV(FILE_A_PATH, dataA);        // Loading lines from CSV into array of structs
     loadCSV(FILE_B_PATH, dataB);
     loadCSV(FILE_C_PATH, dataC);
+
+    
     
     return 0;
 }
